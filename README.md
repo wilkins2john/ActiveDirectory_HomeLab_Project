@@ -42,6 +42,5 @@ This project sets up a local lab environment for practicing system administratio
 - The A Record was successfully added and resolved to the correct IP `192.168.56.10`.
 
 ### Screenshots
-- Add Roles Wizard: ![Add Roles Wizard](pictures/domain.png)
-- Domain Name Configuration: ![Domain Name Configuration](pictures/domain_config.png)
+- **[Placeholder for future screenshots]**
 
