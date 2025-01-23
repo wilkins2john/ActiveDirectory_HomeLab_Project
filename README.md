@@ -26,3 +26,22 @@ This project sets up a local lab environment for practicing system administratio
    ```bash
    git clone https://github.com/wilkins2john/ActiveDirectory_HomeLab_Project.git
    cd yourproject
+
+## Active Directory Domain Controller Setup
+- Added the AD DS role to the Windows Server.
+- Promoted the server to a domain controller with the domain `globexcorporation.local`(fake company name).
+- Verified domain and DNS settings.
+- Opened **DNS Manager**.
+- Verified the **Forward Lookup Zone** for `globlexcorporation.local`.
+- Checked for an existing A Record for `DC01` with IP `192.168.56.10`.
+- Verified DNS using:
+  - `nslookup DC01.globlexcorporation.local` on Windows.
+  - `nslookup DC01.globlexcorporation.local 192.168.56.10` on Linux.
+
+### Outcome
+- The A Record was successfully added and resolved to the correct IP `192.168.56.10`.
+
+### Screenshots
+- Add Roles Wizard: ![Add Roles Wizard](pictures/domain.png)
+- Domain Name Configuration: ![Domain Name Configuration](pictures/domain_config.png)
+
