@@ -77,7 +77,4 @@ Implement and test group policies to enforce specific settings for each organiza
 
 **New Folder**: `screenshots/group_policy`
 
-- HR Group Policy Creation: ![HR Group Policy Creation](screenshots/group_policy/hr_group_policy_creation.png)
-- IT Group Policy Creation: ![IT Group Policy Creation](screenshots/group_policy/it_group_policy_creation.png)
-- Finance Group Policy Creation: ![Finance Group Policy Creation](screenshots/group_policy/finance_group_policy_creation.png)
 - Policy Linked to OU: ![Policy Linked to OU](screenshots/group_policy/policy_linking.png)
