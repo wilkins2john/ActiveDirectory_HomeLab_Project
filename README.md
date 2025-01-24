@@ -53,6 +53,31 @@ Configure Active Directory to simulate a company environment.
    - Finance
 2. Created test users within each OU.
 
+## Group Policy Configuration
+
+### Objective
+Implement and test group policies to enforce specific settings for each organizational unit (OU).
+
+### Steps Performed
+1. Created Group Policies for:
+   - **HR**:
+     - Restricted access to the Control Panel.
+     - Set a custom desktop wallpaper.
+   - **IT**:
+     - Allowed software installation with elevated privileges.
+     - Configured remote desktop access.
+   - **Finance**:
+     - Enforced stricter password policies.
+     - Disabled access to the Command Prompt.
+2. Linked each policy to its respective OU in Group Policy Management.
+
 ### Screenshots
 - OU Structure: ![OU Structure](screenshots/active_directory/ou_structure.png)
 - Created User: ![Created User](screenshots/active_directory/create_user.png)
+
+**New Folder**: `screenshots/group_policy`
+
+- HR Group Policy Creation: ![HR Group Policy Creation](screenshots/group_policy/hr_group_policy_creation.png)
+- IT Group Policy Creation: ![IT Group Policy Creation](screenshots/group_policy/it_group_policy_creation.png)
+- Finance Group Policy Creation: ![Finance Group Policy Creation](screenshots/group_policy/finance_group_policy_creation.png)
+- Policy Linked to OU: ![Policy Linked to OU](screenshots/group_policy/policy_linking.png)
