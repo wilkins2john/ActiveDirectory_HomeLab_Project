@@ -41,6 +41,18 @@ This project sets up a local lab environment for practicing system administratio
 ### Outcome
 - The A Record was successfully added and resolved to the correct IP `192.168.56.10`.
 
-### Screenshots
-- **[Placeholder for future screenshots]**
+## Active Directory Configuration
 
+### Objective
+Configure Active Directory to simulate a company environment.
+
+### Steps Performed
+1. Created Organizational Units (OUs) for:
+   - IT
+   - HR
+   - Finance
+2. Created test users within each OU.
+
+### Screenshots
+- OU Structure: ![OU Structure](screenshots/active_directory/ou_structure.png)
+- Created User: ![Created User](screenshots/active_directory/create_user.png)
